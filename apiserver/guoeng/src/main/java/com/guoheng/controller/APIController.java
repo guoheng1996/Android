@@ -28,9 +28,11 @@ public class APIController {
         return "hello world";
     }
 
-    @RequestMapping("getAllUser")
+    @RequestMapping("/2")
     public @ResponseBody
     List<User> hello2(HttpServletRequest request) throws Exception {
+
+        System.out.print("aa");
         //List<User> users = new ArrayList<User>();
 
 //        for (int i = 1; i < 5; i++) {

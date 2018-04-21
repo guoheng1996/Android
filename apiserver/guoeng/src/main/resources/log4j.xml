@@ -2,7 +2,8 @@
 <!DOCTYPE log4j:configuration SYSTEM "http://toolkit.alibaba-inc.com/dtd/log4j/log4j.dtd">
 <log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'
                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                     xsi:schemaLocation="http://jakarta.apache.org/log4j/ ">
+                     xsi:schemaLocation="http://jakarta.apache.org/log4j/
+http://jakarta.apache.org/log4j/ ">
     <!-- ===================================================================== -->
     <!--  定义全局输出适配器                                                      -->
     <!-- ===================================================================== -->
